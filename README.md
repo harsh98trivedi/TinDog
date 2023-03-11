@@ -1,1 +1,8 @@
-TinDog Starting Files
+# TinDog
+TinDog **landing page** is a fun and friendly website that invites dog lovers to join in on an exciting new way to meet other like-minded individuals and dogs in their area.
+
+[![TinDog](images/tindog.png)](https://harsh98trivedi.github.io/TinDog/)
+
+Welcome to our fun and exciting mobile app, TinDog - the dog-friendly version of Tinder! If you're a dog lover looking to connect with others in your area who share your passion, then look no further. With TinDog, you can create a unique profile for your furry friend, showcasing their personality and interests, and start swiping through other dog profiles in your area. You never know who you might come across – a new playmate for your pup, or even a potential new friend for yourself!
+
+Our app is designed with a user-friendly interface that's attractive and easy on the eye, complete with vibrant colors and playful imagery. Whether you're looking for a casual playdate or seeking to expand your circle of dog social connections, TinDog makes it easy and enjoyable. Get started today and discover the many benefits that come with connecting with other dog lovers through our app. We hope you and your pooch have a tail-wagging good time!
