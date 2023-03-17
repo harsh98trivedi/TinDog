@@ -99,6 +99,7 @@ h1{
 
 .hero{
     margin-top: 5%;
+    word-wrap: break-word;
 }
 
 /* Buttons */
@@ -208,7 +209,7 @@ h2{
     font-weight: 800;
     font-size: 3rem;
     margin: auto auto 1.5rem auto;
-    padding: 0 15rem;
+    padding: 0 15%;
 }
 
 /* Footer */
