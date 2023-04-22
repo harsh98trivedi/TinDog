@@ -20,18 +20,26 @@ body{
 /* Title Image */
 
 .title-image{
-    max-width: calc(25% - 8vmax);
-    top: calc(20% + 5vmax);
-    right: calc(25% - 5vmax);
-    transform: rotate(25deg);
-    position: absolute;
+    max-width: 30vmax;
     transition: 0.5s all ease;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
 }
 
 .hero-image{
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
+@media (max-width: 990px){
+    .hero{
+        align-items: center;
+        text-align: center;
+    }
+}
+/* 
 @media (max-width: 1475px){
     .title-image{
         max-width: calc(25% - 8vmax);
@@ -39,7 +47,7 @@ body{
 }
 @media (max-width: 1150px){
     .title-image{
-        max-width: calc(25% - 5vmax);
+        max-width: 25%;
         transform: rotate(0);
     }
 }
@@ -62,7 +70,7 @@ body{
         max-width: 50vw;
         margin: 1.5rem auto;
     }
-}
+} */
 
 
 h1{
@@ -72,8 +80,10 @@ h1{
 }
 
 .container-fluid{
-    padding: 5% 15%;
+    padding: 5%;
     overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Navigation Bar */
@@ -100,19 +110,22 @@ h1{
 .hero{
     margin-top: 5%;
     word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Buttons */
 
 .hero-button{
     margin: 0.5rem;
+    width: 50%;
 }
 
 /* Features */
 
 #features{
     background-color: #ffffff;
-    padding: 5% 10%;
+    padding: 5%;
     position: relative;
 }
 
@@ -178,7 +191,7 @@ h2{
 /* Pricing */
 
 #pricing{
-    padding: 7%;
+    padding: 5%;
     text-align: center;
 }
 
@@ -208,7 +221,7 @@ h2{
 #cta h3{
     font-weight: 800;
     font-size: 3rem;
-    margin: auto auto 1.5rem auto;
+    margin: auto;
     padding: 0 15%;
 }
 
