@@ -20,7 +20,7 @@ body{
 /* Title Image */
 
 .title-image{
-    max-width: calc(10rem + 3%);
+    max-width: calc(10rem + 5%);
     transition: 0.5s all ease;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ body{
     margin: auto;
     display: flex;
     justify-content: center;
-    bottom: -15%;
+    bottom: -10%;
     right: 10vmax;
     transform: rotate(15deg);
 }
@@ -41,15 +41,20 @@ body{
     align-items: center;
 }
 
-@media (max-width: 900px){
+@media (max-width: 950px){
     .hero{
         align-items: center;
         text-align: center;
         width: 100%;
         margin: auto;
     }
-    .hero-image{
-        display: none;
+    .title-image{
+        /* display: none; */
+        margin: 1.5rem auto;
+        display: flex;
+        position: relative;
+        transform: rotate(0deg);
+        right: auto;
     }
 }
 
