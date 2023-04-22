@@ -108,7 +108,7 @@ h1{
 
 #features{
     background-color: #ffffff;
-    padding: 5%;
+    padding: 10%;
     position: relative;
 }
 
@@ -151,7 +151,7 @@ h2{
 }
 
 .carousel-item{
-    padding: 5% 15%;
+    padding: 10%;
 }
 
 .testimonial-image{
@@ -174,7 +174,7 @@ h2{
 /* Pricing */
 
 #pricing{
-    padding: 5%;
+    padding: 10%;
     text-align: center;
 }
 
@@ -205,7 +205,6 @@ h2{
     font-weight: 800;
     font-size: 3rem;
     margin: auto;
-    padding: 0 15%;
 }
 
 /* Footer */
@@ -218,12 +217,10 @@ h2{
 #footer a{
     color: #000000;
     text-decoration: none;
-    padding: 1.5rem;
+    margin: auto 1.5rem;
 }
 
 #footer p{
-    padding: 0;
-    margin: 2.5rem auto;
     font-size: 1.25rem;
     font-weight: 500;
 }
