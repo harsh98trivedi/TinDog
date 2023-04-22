@@ -60,7 +60,7 @@ body{
 
 h1{
     font-weight: 900;
-    font-size: 5vmax;
+    font-size: 7vmax;
     line-height: 1.15;
     word-wrap: initial;
 }
@@ -145,9 +145,11 @@ h1{
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: 3.5vmax;
     line-height: 1.25;
     font-weight: 700;
+    margin: auto;
+    width: 75%;
 }
 
 .carousel-item{
@@ -174,12 +176,12 @@ h2{
 /* Pricing */
 
 #pricing{
-    padding: 10%;
+    padding: 10% 5%;
     text-align: center;
 }
 
 #pricing h2{
-    font-size: 3rem;
+    font-size: 6vmax;
     font-weight: 800;
 }
 
