@@ -2,6 +2,11 @@ body{
     font-family: "Montserrat";
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    margin: auto;
+    padding: 0;
+}
+
 ::scrollbar{
     display: none;
 }
@@ -20,7 +25,7 @@ body{
 /* Title Image */
 
 .title-image{
-    max-width: calc(10rem + 5%);
+    max-width: calc(10rem + 7%);
     transition: 0.5s all ease;
     display: flex;
     justify-content: center;
@@ -30,7 +35,7 @@ body{
     display: flex;
     justify-content: center;
     bottom: -10%;
-    right: 10vmax;
+    right: 15vmax;
     transform: rotate(15deg);
 }
 
@@ -56,17 +61,20 @@ body{
         transform: rotate(0deg);
         right: auto;
     }
+    .hero-button{
+    margin: 0.5rem!important;
+    }
 }
 
 h1{
     font-weight: 900;
     font-size: 5vmax;
     line-height: 1.15;
-    word-wrap: initial;
+    word-wrap: break-word;
 }
 
 .container-fluid{
-    padding: 5% 10%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
 }
@@ -95,13 +103,17 @@ h1{
 .hero{
     margin-top: 5%;
     word-wrap: break-word;
-    width: 70%;
+    width: 50vw;
 }
 
 /* Buttons */
 
 .hero-button{
-    margin: 0.5rem;
+    margin: auto;
+}
+
+.hero-button:nth-child(4){
+    margin-left: 1rem;
 }
 
 /* Features */
@@ -118,6 +130,7 @@ h1{
 }
 
 .feature-box h3{
+    margin-bottom: 0.5rem;
     font-weight: 700;
 }
 
@@ -129,7 +142,7 @@ h1{
 
 .feature-box i{
     color: #ef8172;
-    margin: 5%;
+    margin: 2.5vmax;
 }
 
 .feature-box i:hover{
@@ -153,7 +166,7 @@ h2{
 }
 
 .carousel-item{
-    padding: 10%;
+    padding: 5%;
 }
 
 .testimonial-image{
@@ -165,12 +178,12 @@ h2{
 #press{
     background-color: #ef8172;
     text-align: center;
-    padding: 0 0 5% 0;
+    padding: 5% 0;
 }
 
 #press img{
     margin: 2.5rem;
-    width: 10%;
+    width: calc(5vmax + 5rem);
 }
 
 /* Pricing */
@@ -181,8 +194,9 @@ h2{
 }
 
 #pricing h2{
-    font-size: 6vmax;
+    font-size: 4vmax;
     font-weight: 800;
+    word-wrap: break-word;
 }
 
 .pricing-subheading{
@@ -212,17 +226,22 @@ h2{
 /* Footer */
 
 #footer{
-    padding: 5%;
+    padding: 10% 5%;
     text-align: center;
 }
 
 #footer a{
     color: #000000;
     text-decoration: none;
-    margin: auto 1.5rem;
+    margin: auto;
+}
+
+#footer a i{
+    margin: 1.5rem;
 }
 
 #footer p{
     font-size: 1.25rem;
     font-weight: 500;
+    margin: auto;
 }
