@@ -62,7 +62,7 @@ body{
         right: auto;
     }
     .hero{
-        width: 100%;
+        width: 100%!important;
     }
     .hero-button{
     margin: 0.5rem!important;
