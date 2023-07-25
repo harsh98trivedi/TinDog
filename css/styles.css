@@ -256,6 +256,7 @@ h2{
 
   .card {
     height: 100%; /* Set a fixed height for the cards */
+    margin: 0.5rem auto;
   }
 
   .Change{
