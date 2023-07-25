@@ -1,5 +1,6 @@
 body{
-    font-family: "Montserrat";
+    /* font-family: "Montserrat"; */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
@@ -194,6 +195,7 @@ h2{
 #pricing{
     padding: 10% 5%;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #pricing h2{
@@ -248,3 +250,15 @@ h2{
     font-weight: 500;
     margin: auto;
 }
+
+.dark-border {
+    border: 2px solid #343a40; /* Replace #343a40 with the desired dark color code Of your choice... */
+  }
+
+  .card {
+    height: 100%; /* Set a fixed height for the cards */
+  }
+
+  .Change{
+    font-size: 20px;
+  }
