@@ -262,6 +262,6 @@ h2{
   .Change{
     font-size: 20px;
   }
-  .row>*{
+  #pricing .row>*{
     margin: 0.5rem auto;
   }
